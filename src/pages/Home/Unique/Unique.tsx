@@ -20,19 +20,47 @@ export default function Unique() {
           <p className="width mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius sed pharetra dictum neque massa congue</p>
               <div className="grid grid-cols-2 gap-1 mr-14">
                   <div className="flex">
-                    <img src="/Truck.png" alt="ham" className='bg-green rounded-full p-2 mb-11' />
+                    <Image 
+                      src='/Truck.png'
+                      alt='truck'
+                      className='bg-green rounded-full p-2 mb-11'
+                      width={70}
+                      height={70}
+                    />
+                    {/* <img src="/Truck.png" alt="ham" className='bg-green rounded-full p-2 mb-11' /> */}
                     <p className='pt-5'>Fast Delivery</p>
                   </div>
                   <div className="flex">
-                    <img src="/Timer.png" alt="ham" className='bg-green rounded-full p-2 mb-11' />
+                  <Image 
+                      src='/Timer.png'
+                      alt='truck'
+                      className='bg-green rounded-full p-2 mb-11'
+                      width={70}
+                      height={70}
+                    />
+                    {/* <img src="/Timer.png" alt="ham" className='bg-green rounded-full p-2 mb-11' /> */}
                     <p className='pt-5'>24/7 services</p>
                   </div>
                   <div className="flex">
-                    <img src="/Hamburger.png" alt="ham" className='bg-green rounded-full p-2 mb-11 ' />
+                  <Image 
+                      src='/Hamburger.png'
+                      alt='truck'
+                      className='bg-green rounded-full p-2 mb-11'
+                      width={70}
+                      height={70}
+                    />
+                    {/* <img src="/Hamburger.png" alt="ham" className='bg-green rounded-full p-2 mb-11 ' /> */}
                     <p className='pt-5'>Fresh made food</p>
                   </div>
                   <div className="flex">
-                    <img src="/Factory.png" alt="ham" className='bg-green rounded-full p-2 mb-11' />
+                    <Image 
+                        src='/Factory.png'
+                        alt='truck'
+                        className='bg-green rounded-full p-2 mb-11'
+                        width={70}
+                        height={70}
+                      />
+                    {/* <img src="/Factory.png" alt="ham" className='bg-green rounded-full p-2 mb-11' /> */}
                     <p className='pt-5'>Quality maintain</p>
                   </div>
               </div>

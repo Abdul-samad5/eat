@@ -1,25 +1,12 @@
-import Image from 'next/image';
 import React from 'react'
 
 type Props = {
-    src: string;
-    name: string,
-    chef: string
+    text: string;
   };
-export default function Button({src, chef, name}: Props) {
+export default function Button({text}: Props) {
    return (
-   <div className='flex'>
-    <Image
-    className='rounded-full'
-    src={src} 
-    alt='chef'
-    width={50}
-    height={50}/>
-    <div className='pl-5'>
-         <h1 className='text-green text-2xl'>{name}</h1>
-         <p>{chef}</p>
-    </div>
-   
+   <div>
+        <button className='bg-green ml-20 mt-11 '>{text}</button>   
    </div>
    
    );

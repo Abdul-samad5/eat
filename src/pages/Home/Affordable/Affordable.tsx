@@ -1,3 +1,4 @@
+import Button from '@/components/Button';
 import Image from 'next/image';
 import React from 'react'
 export default function Affordable() {
@@ -15,7 +16,7 @@ export default function Affordable() {
             <div className="relative z-10 h-full">
                 <h1 className='text-4xl font-bold text-gray-200 pl-20 pt-32'>Affordable,<br /> Quality & Fresh</h1>
                 <p className='text-2xl text-white pt-2 pl-20'>Get quality food for the best prices</p>
-                <button className='bg-green ml-20 mt-11 '>Join waitlist</button>
+                <Button text='Join waitlist'/>
             </div>
             <div className="relative float-right -mt-14">
                 <h1 className='text-4xl font-bold text-gray-200 pl-20'>Cook & Earn</h1>
