@@ -26,7 +26,7 @@ export default function Unique() {
                       width={70}
                       height={70}
                     />
-                 
+                    {/* <img src="/Truck.png" alt="ham" className='bg-green rounded-full p-2 mb-11' /> */}
                     <p className='pt-5'>Fast Delivery</p>
                   </div>
                   <div className="flex">
@@ -37,7 +37,7 @@ export default function Unique() {
                       width={70}
                       height={70}
                     />
-                    
+                    {/* <img src="/Timer.png" alt="ham" className='bg-green rounded-full p-2 mb-11' /> */}
                     <p className='pt-5'>24/7 services</p>
                   </div>
                   <div className="flex">
@@ -48,7 +48,7 @@ export default function Unique() {
                       width={70}
                       height={70}
                     />
-                    
+                    {/* <img src="/Hamburger.png" alt="ham" className='bg-green rounded-full p-2 mb-11 ' /> */}
                     <p className='pt-5'>Fresh made food</p>
                   </div>
                   <div className="flex">
@@ -59,7 +59,7 @@ export default function Unique() {
                         width={70}
                         height={70}
                       />
-                    
+                    {/* <img src="/Factory.png" alt="ham" className='bg-green rounded-full p-2 mb-11' /> */}
                     <p className='pt-5'>Quality maintain</p>
                   </div>
               </div>

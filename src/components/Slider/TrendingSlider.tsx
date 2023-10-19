@@ -55,7 +55,7 @@ const TrendingSlider = () => {
   return (
     <>
       <div className="trending">
-        {/* <div className="max-w-7xl mr-auto ml-auto pr-8 pl-8 flex flex-col justify-center"> */}
+       
         <div className="container">
           <div className="title-btns mb-24">
             <h3>This month chef&apos;s</h3>
@@ -123,7 +123,8 @@ const TrendingSlider = () => {
             />
         </div>
         <div className="text-lighten mt-44">
-          <h1 className="text-5xl font-bold w-96 mb-14">Download our app and join the Live Deals</h1>
+        {/* w-96 */}
+          <h1 className="text-5xl font-bold w-96  mb-14">Download our app and join the Live Deals</h1>
           <div className="flex flex-row">
               <Image
               className="pr-5"

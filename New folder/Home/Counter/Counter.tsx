@@ -36,7 +36,7 @@ export default function Counter() {
                 )
         }
              <Image
-                className="-mr-3"
+                className="-mr-4"
                 src='/Vector (2).png'
                 alt='vector'
                 width={320}

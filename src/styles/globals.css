@@ -74,6 +74,7 @@
     @apply bg-background text-foreground;
   }
 }
+
 button{
   border-radius: 40.299px;
 padding: 18.135px 60px;
@@ -116,8 +117,10 @@ font-weight: 600;
 .width{
   width: 40rem;
 }
-
-@media (max-width: 638px) {
+.border{
+  border: 1px solid white;
+}
+/* @media (max-width: 638px) {
   .media img{
      
       width: 650px;
@@ -132,4 +135,4 @@ height: 675px;
 height: 600px;
 flex-shrink: 0;
   }
-}
+} */
