@@ -6,6 +6,8 @@ import Affordable from './Home/Affordable/Affordable';
 import Ready from './Home/Ready/Ready';
 import Unique from './Home/Unique/Unique';
 import Testimony from './Home/Testimony/Testimony';
+import Counter from './Home/Counter/Counter';
+import TrendingSlider from '@/components/Slider/TrendingSlider';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -18,6 +20,8 @@ export default function Home() {
          <Ready/>
          <Unique/>
          <Testimony/>
+         <Counter />
+         <TrendingSlider/>
       </main>
    );
 }

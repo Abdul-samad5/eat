@@ -7,7 +7,6 @@ export class Header extends Component {
       <div className='bg-neutral-950 flex flex-grow justify-around pt-6 pb-4 font1'>
         <Link href="/">
           <img src="./Logo.png" alt="" />
-         
         </Link>
         <ul className='text-white flex'>
           <li className='pr-14'>

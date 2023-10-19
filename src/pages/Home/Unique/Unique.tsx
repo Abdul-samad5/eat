@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Unique() {
   return (
-    <div className="bg-green h-full flex justify-around pt-20">
+    <div className="bg-green h-full flex justify-around pt-20 pb-32">
         <div className="ml-38 mt-10">
        
             <Image
