@@ -1,12 +1,20 @@
 import React, { Component } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export class Header extends Component {
   render() {
     return (
       <div className='bg-neutral-950 flex flex-grow justify-around pt-6 pb-4 font1'>
         <Link href="/">
-          <img src="./Logo.png" alt="" />
+          {/* <img src="./Logo.png" alt="" /> */}
+          <Image 
+            className="mb-5"
+            src='/Logo.png'
+            alt='logo'
+            width={213}
+            height={60}
+          />
         </Link>
         <ul className='text-white flex'>
           <li className='pr-14'>
