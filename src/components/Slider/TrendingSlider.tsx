@@ -45,12 +45,12 @@ const TrendingSlider = () => {
 
   const slideLeft = () => {
     let slider = document.getElementById("slider");
-    slider.scrollLeft = slider.scrollLeft - 235;
+    slider!.scrollLeft = slider!.scrollLeft - 235;
   };
 
   const slideRight = () => {
     let slider = document.getElementById("slider");
-    slider.scrollLeft = slider.scrollLeft + 235;
+    slider!.scrollLeft = slider!.scrollLeft + 235;
   };
   return (
     <>
