@@ -7,7 +7,6 @@ export class Header extends Component {
     return (
       <div className='bg-neutral-950 flex flex-grow justify-around pt-6 pb-4 font1'>
         <Link href="/">
-          {/* <img src="./Logo.png" alt="" /> */}
           <Image 
             className="mb-5"
             src='/Logo.png'

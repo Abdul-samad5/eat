@@ -1,5 +1,6 @@
 import Button from '@/components/Button'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 function Card() {
@@ -93,7 +94,7 @@ function Card() {
                             <p className="text-cardText text-xs mt-5 mb-4">{card.author}</p>
                             <h1 className='text-cardHead text-2xl font-bold mb-3'>{card.text}</h1>
                             <p className='text-cardPara mb-4'>{card.para}</p>
-                            <a href="/" className="text-green underline">{card.link}</a>
+                            <Link href="/" className="text-green underline">{card.link}</Link>
                     </div>
                     
                 // </div>
