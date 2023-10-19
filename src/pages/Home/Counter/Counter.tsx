@@ -4,22 +4,22 @@ export default function Counter() {
     const datas =[
         {
             id:1,
-            count:'100K+',
+            dount:'100K+',
             text:"MENU FOOD"
         },
         {
             id:2,
-            count:'20K+',
+            dount:'20K+',
             text:"CHEFS"
         },
         {
             id:3,
-            count:'400K+',
+            dount:'400K+',
             text:"DEALS"
         },
         {
             id:4,
-            count:'6.9M+',
+            dount:'6.9M+',
             text:"COMPETITIONS"
         },
     ]
@@ -30,7 +30,7 @@ export default function Counter() {
         {
             datas.map((data, index)=>
             <div className='pl-10' key={`${data.id}+${index}`}>
-                 <h1 className='text-5xl'> {data.count}</h1>
+                 <h1 className='text-5xl'> {data.dount}</h1>
                 <p className="pr-10 text-xl font-normal">{data.text}</p>
             </div>
                 )
