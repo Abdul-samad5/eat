@@ -24,7 +24,7 @@ export default function Counter() {
         },
     ]
    return (
-    <div className="h-full mt-10 bg-green">
+    <div className="mt-10 bg-green h-72">
     
       <div className='flex justify-around items-center text-white '>
         {
@@ -36,11 +36,11 @@ export default function Counter() {
                 )
         }
              <Image
-                className="-mr-3"
+                className="-mr-8"
                 src='/Vector (2).png'
                 alt='vector'
-                width={320}
-                height={500} />
+                width={190}
+                height={290} />
       </div>
     </div>
   

@@ -53,6 +53,10 @@ const config = {
          colors: {
             green: '#01AA1B',
             lighten:'#272042',
+            cardText:'#888888',
+            cardHead:'#272727',
+            cardPara:'#5F5F5F',
+            borderColor:'#DADADA',
             accent: {
                DEFAULT: 'hsl(var(--accent))',
                foreground: 'hsl(var(--accent-foreground))',

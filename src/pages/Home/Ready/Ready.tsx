@@ -6,8 +6,8 @@ export default function Ready() {
     <div className='h-screen mb-40'>
             <div className="ml-20 mr-20 mt-24 mb-20">
                  <fieldset className="border-2 text-center border-green">
-                    <legend className='text-green text-5xl font-extrabold pr-10 pl-10'>Ready for the best food deals?</legend>
-                    <p className="pr-80 mt-6 pl-80 mb-24">{"Get quality food for the best prices. Lorem ipsum dolor sit amet consectetur. Lacus sagittis elementum nisl euismod cras nec scelerisque nulla. "}</p>
+                    <legend className='text-green text-5xl font-extrabold pr-10 pl-10 nexa1'>Ready for the best food deals?</legend>
+                    <p className="pr-80 mt-6 pl-80 mb-24 nexa">{"Get quality food for the best prices. Lorem ipsum dolor sit amet consectetur. Lacus sagittis elementum nisl euismod cras nec scelerisque nulla. "}</p>
                        <div className='flex justify-around flex-grow-0'>
                         <div className="mb-24">
                             <Image 

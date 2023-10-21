@@ -13,9 +13,9 @@ export default function Hero() {
             />
         </div>
     <div className="relative z-10 h-full">
-     <p className='text-2xl text-white pt-40 pl-20 font2'>You will be amazed</p>
-        <h1 className='text-7xl font-bold text-gray-200 pt-2 pl-20 font1'>QUALITY, FRESH @BEST PRICES</h1>
-        <p className='text-2xl text-white float-right mr-10 font2'>and yes, <br />
+     <p className='text-2xl text-white pt-40 font2 pl-36'>You will be amazed</p>
+        <h1 className='font-bold text-gray-200  font1 text-6xl text-center'>QUALITY, FRESH @BEST PRICES</h1>
+        <p className='text-2xl text-white float-right font2 mr-36'>and yes, <br />
 we do swallow too.</p>
 <button className='bg-green float-right mt-24 font1 btn'>Try it out</button>
     </div>

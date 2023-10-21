@@ -16,11 +16,11 @@ export default function Home() {
    return (
       <main className={` ${inter.className}`}>
          <Header/>
-         <Hero />
+         <Hero /> 
          <Affordable/>
          <Ready/>
          <Unique/>
-         <Testimony/>
+        <Testimony/>
          <Counter />
          <TrendingSlider/>
          <Footer/>
