@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react'
-import Typed from 'react-typed';
+import Typed from 'typed.js';
 
 export default function Hero() {
    return (
