@@ -74,34 +74,47 @@
     @apply bg-background text-foreground;
   }
 }
-
+@font-face { 
+  font-family: "nexa"; 
+  src: url('../../public/font/Averta-Black.otf'); 
+  font-style: normal; 
+} 
+@font-face { 
+  font-family: "nexaRegular"; 
+  src: url('../../public/font/Averta-Black.otf'); 
+  font-style: normal; 
+} 
+.font2{
+  font-family: 'nexa' , sans-serif; 
+}
+.nexaRegular{
+  font-family: 'nexaRegular' , sans-serif; 
+}
 button{
   border-radius: 40.299px;
 padding: 18.135px 60px;
 color: #FFF;
-font-family: Averta;
 width: 302px;
 font-size: 20px;
 font-style: normal;
 font-weight: 600;
 }
 .hero{
-  margin-top: -17px;
+  /* margin-top: -17px; */
+  background-image: url('../../public/background.png');
+  background-repeat: no-repeat;
+}
+.blog{
+  /* margin-top: -17px; */
+  background-image: url('../../public/background.png');
+  background-repeat: no-repeat;
 }
 .vector{
   text-align: center;
   margin-left: 10rem;
   margin-top: -21rem;
 }
-.font1{
-  font-family: Averta;
-}
-.font2{
-  font-family: Nexa-Bold;
-}
-.font3{
-  font-family: NexaRegular;
-}
+
 .btn{
  margin-right: -12rem;
 }

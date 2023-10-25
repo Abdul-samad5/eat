@@ -1,51 +1,24 @@
 import Button from '@/components/Button';
-import Image from 'next/image';
 import React from 'react'
 export default function Affordable() {
    return (
-    // <div className="relative bg-black screen">
-    //     <div className="absolute onc media">
-    //         <Image
-    //             src="/Vector.png"
-    //             alt="background image"
-    //            width={700}
-    //             height={700}
-    //         />
-    //     </div>
-    //     <div className="mb-52">
-    //         <div className="relative z-10 h-full">
-    //             <h1 className='text-4xl font-bold text-gray-200 pl-20 pt-32'>Affordable,<br /> Quality & Fresh</h1>
-    //             <p className='text-2xl text-white pt-2 pl-20'>Get quality food for the best prices</p>
-    //             <Button text='Join waitlist'/>
-    //         </div>
-    //         <div className="relative float-right -mt-14">
-    //             <h1 className='text-4xl font-bold text-gray-200 pl-20'>Cook & Earn</h1>
-    //             <p className='text-xl text-white pr-20'>Earn on your culinary skills. Get guaranteed <br /> orders on your meals before starting to cook  </p>
-    //             <button className='bg-green mt-7 ml-20'>Join waitlist</button>
-    //         </div>
-    //     </div>
-    //     <div className="relative w-96 pl-20">
-    //             <h1 className='text-4xl font-bold text-gray-200'>Food Creatives</h1>
-    //             <p className='text-xl text-white'>First creator economy for food. Where food creatives earn.</p>
-           
-    //         </div>
-    // </div>
   <div className="flex justify-around afford bg-black text-white">
     <div className="-ml-20 mt-16">
         <div>
-            <h1 className='text-4xl font-bold text-gray-200 mb-5'>Affordable,<br /> Quality & Fresh</h1>
-            <p className='text-xl mb-5'>Get quality food for the best prices</p>
-          <p className="-mt-10 -ml-20"> <Button text='Join waitlist'/></p> 
+            <h1 className='text-4xl font-extrabold text-gray-200 font2 mb-5'>irresistible <br /> 
+food deals</h1>
+            <p className='text-xl mb-5 nexaRegular font-normal'>Get 5 star quality meals at the best prices <br /> possible.</p>
+          <div className="-mt-10 -ml-20"> <Button text='Join waitlist'/></div> 
         </div>
-        <div className="mt-72 w-60">
+        <div className="mt-72 w-80">
             <h1 className='text-3xl font-bold text-gray-200'>Food Creatives</h1>
-           <p className='text-sm text-white'>First creator economy for food. Where food creatives earn.</p>
+           <p className='text-white font2 font-normal text-xl'>First creator economy for food. Where food creatives earn.</p>
         </div>
         
     </div>
   <div className="-mr-32 mt-64">
-                <h1 className='text-4xl font-bold text-gray-200 pl-48'>Cook & Earn</h1>
-              <p className='text-xl text-white'>Earn on your culinary skills. Get guaranteed <br /> orders on your meals before starting to cook  </p>
+                <h1 className='text-4xl font-extrabold text-gray-200 pl-48 font2'>Cook & Earn</h1>
+              <p className='text-xl text-white nexaRegular font-normal'>Earn on your culinary skills. Get guaranteed <br /> orders on your meals before starting to cook  </p>
               <button className='bg-green mt-7 ml-20'>Join waitlist</button>
     </div>
   </div>

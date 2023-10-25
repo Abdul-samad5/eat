@@ -83,7 +83,7 @@ function Card() {
      <div className='grid grid-cols-3 grid-rows-3 gap-x-1 gap-y-10'>
         {
             cards.map((card)=>(
-                // <div>
+                 <Link href="/">
                     <div key={card.id} className="w-96 ml-7 rounded-xl border-solid border-2 pb-10 pt-2 pr-3 pl-3 border-borderColor" >
                         <Image
                             src={card.author}
@@ -94,10 +94,10 @@ function Card() {
                             <p className="text-cardText text-xs mt-5 mb-4">{card.img}</p>
                             <h1 className='text-cardHead text-2xl font-bold mb-3'>{card.link}</h1>
                             <p className='text-cardPara mb-4'>{card.para}</p>
-                            <Link href="/" className="text-green underline">{card.text}</Link>
+                            <p className="text-green underline">{card.text}</p>
                     </div>
                     
-                // </div>
+                 </Link>
                 
             ))
         }

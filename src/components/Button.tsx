@@ -6,7 +6,7 @@ type Props = {
 export default function Button({text}: Props) {
    return (
    <div>
-        <button className='bg-green ml-20 mt-11 '>{text}</button>   
+        <button className='bg-green ml-20 mt-11 font2'>{text}</button>   
    </div>
    
    );

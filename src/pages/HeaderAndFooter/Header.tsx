@@ -15,28 +15,28 @@ const Header = () => {
   
 
       <>
-     <div className='bg-neutral-950 flex flex-grow justify-around pt-6 pb-4 font1'>
+     <div className='bg-neutral-950 flex flex-grow justify-around pt-8  font1'>
         <Link href="/">
           <Image 
-            className="mb-5"
+            className="pb-3"
             src='/Logo.png'
             alt='logo'
-            width={213}
-            height={60}
+            width={200}
+            height={40}
           />
         </Link>
         <ul className='hidden text-white md:flex'>
           <li className='pr-14'>
-          <Link href="/about">About us</Link>
+          <Link href="/about">ABOUT US</Link>
           </li>
            <li className='pr-14'>
-          <Link href="/">Service</Link>
+          <Link href="/">SERVICE</Link>
           </li>
           <li className='pr-14'>
-          <Link href="/blog">Blog</Link>
+          <Link href="/blog">BLOG</Link>
           </li>
           <li className='pr-2'>
-          <Link href="/">Contact</Link>
+          <Link href="/">CONTACT</Link>
           </li>
         </ul>
         <div className='hidden md:flex'>
