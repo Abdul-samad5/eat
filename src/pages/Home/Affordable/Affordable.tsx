@@ -12,7 +12,7 @@ food deals</h1>
         </div>
         <div className="w-80 mt-60">
             <h1 className='text-3xl font-bold text-gray-200'>Food Creatives</h1>
-           <p className='text-white font2 font-normal text-xl'>Africa's first food creator economy where food creatives earn.</p>
+           <p className='text-white font2 font-normal text-xl'>Africa&apos;s first food creator economy where food creatives earn.</p>
         </div>
         
     </div>
