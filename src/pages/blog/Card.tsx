@@ -83,8 +83,8 @@ function Card() {
      <div className='grid grid-cols-3 grid-rows-3 gap-x-1 gap-y-10'>
         {
             cards.map((card)=>(
-                 <Link href="/">
-                    <div key={card.id} className="w-96 ml-7 rounded-xl border-solid border-2 pb-10 pt-2 pr-3 pl-3 border-borderColor" >
+                 <Link href="/" key={card.id} >
+                    <div className="w-96 ml-7 rounded-xl border-solid border-2 pb-10 pt-2 pr-3 pl-3 border-borderColor" >
                         <Image
                             src={card.author}
                             height={233}
