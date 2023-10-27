@@ -74,6 +74,9 @@
     @apply bg-background text-foreground;
   }
 }
+body{
+  width: 100%;
+}
 @font-face { 
   font-family: "nexa"; 
   src: url('../../public/font/Averta-Black.otf'); 
@@ -84,6 +87,7 @@
   src: url('../../public/font/Averta-Black.otf'); 
   font-style: normal; 
 } 
+
 .font2{
   font-family: 'nexa' , sans-serif; 
 }
