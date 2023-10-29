@@ -1,3 +1,4 @@
+import Vector from '@/components/Vector'
 import Image from 'next/image'
 import React from 'react'
 
@@ -45,6 +46,7 @@ export default function Ready() {
                        </div>
                  </fieldset>
             </div>
+            <Vector />
     </div>
   )
 }

@@ -74,9 +74,6 @@
     @apply bg-background text-foreground;
   }
 }
-body{
-  width: 100%;
-}
 @font-face { 
   font-family: "nexa"; 
   src: url('../../public/font/Averta-Black.otf'); 
@@ -87,7 +84,6 @@ body{
   src: url('../../public/font/Averta-Black.otf'); 
   font-style: normal; 
 } 
-
 .font2{
   font-family: 'nexa' , sans-serif; 
 }
@@ -140,8 +136,8 @@ font-weight: 600;
 .afford{
   background-image: url('../../public/Vector.png');
   background-repeat: no-repeat;
-  background-size: 700px;
-  background-position: 30% ;
+  background-size: 900px;
+  background-position: 35% ;
   height: 710px;
   
 }

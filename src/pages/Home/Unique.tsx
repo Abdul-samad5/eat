@@ -8,8 +8,8 @@ export default function Unique() {
             <Image
             src='/Body.png'
             alt='body'
-            width={250}
-            height={500}
+            width={300}
+            height={600}
             style={{objectFit: "contain"}}
             />
         </div> 

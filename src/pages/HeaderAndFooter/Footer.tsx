@@ -1,11 +1,12 @@
+import Vector from '@/components/Vector'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
 function Footer() {
   return (
-    <>
-        <div className='bg-neutral-950 pt-20 flex flex-col justify-center items-center pb-16 mt-10'>
+    <div className='bg-neutral-950'>
+        <div className='pt-10 flex flex-col justify-center items-center pb-10 mt-10'>
           <Image 
             className="mb-5"
             src='/Logo.png'
@@ -29,8 +30,9 @@ function Footer() {
         </ul>
     </div>
     <p className="border"></p>
-    <p className="text-center bg-neutral-950 text-white pt-12 pb-16 italic text-xs">Copyright © 2023 PushEat | All Rights Reserved </p>
-    </>
+    <p className="text-center bg-neutral-950 text-white pt-10 pb-10 italic text-xs">Copyright © 2023 PushEat | All Rights Reserved </p>
+    <Vector/>
+    </div>
     
   )
 }

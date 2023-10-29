@@ -16,10 +16,10 @@ food deals</h1>
         </div>
         
     </div>
-  <div className="-mr-32 mt-64">
+  <div className=" mt-64 -mr-32">
                 <h1 className='text-4xl font-extrabold text-gray-200 pl-48 font2'>Cook & Earn</h1>
-              <p className='text-xl text-white nexaRegular font-normal pr-32'>Earn on your culinary skills. Get guaranteed <br /> orders on your meals before starting to cook  </p>
-              <button className='bg-green mt-7 ml-20'>Become a chef</button>
+              <p className='text-xl text-white nexaRegular font-normal pr-20'>Earn on your culinary skills. Get guaranteed <br /> orders on your meals before starting to cook  </p>
+              <button className='bg-green mt-7 ml-24'>Become a chef</button>
     </div>
   </div>
    );

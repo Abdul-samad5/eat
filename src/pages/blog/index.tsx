@@ -7,10 +7,10 @@ import Card from './Card'
 function index() {
   return (
     <div>
-    <Header/>
-    <Hero/>
-    <Card/>
-    <Footer/>
+      <Header/>
+      <Hero/>
+      <Card/>
+      <Footer/>
     </div>
   )
 }
