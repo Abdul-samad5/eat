@@ -21,8 +21,10 @@ const Header = () => {
             className="pb-4 -mt-3"
             src='/Logo.png'
             alt='logo'
+            loading='eager'
             width={200}
             height={40}
+            priority
           />
         </Link>
         <ul className='hidden text-white md:flex'>

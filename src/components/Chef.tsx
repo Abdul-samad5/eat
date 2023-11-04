@@ -12,6 +12,7 @@ export default function Chef({src, chef, name}: Props) {
     <Image
     className='rounded-full'
     src={src} 
+    loading='eager'
     alt='chef'
     width={50}
     height={50}/>

@@ -103,11 +103,13 @@ font-weight: 600;
   /* margin-top: -17px; */
   background-image: url('../../public/background.png');
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .blog{
   /* margin-top: -17px; */
   background-image: url('../../public/background.png');
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .vector{
   text-align: center;

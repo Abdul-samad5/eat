@@ -10,6 +10,7 @@ export default function Unique() {
             alt='body'
             width={300}
             height={600}
+            loading='lazy'
             style={{objectFit: "contain"}}
             />
         </div> 
@@ -21,6 +22,7 @@ export default function Unique() {
                   <div className="flex">
                     <Image 
                       src='/Truck.png'
+                      loading='lazy'
                       alt='truck'
                       className='bg-green rounded-full p-2 mb-11'
                       width={70}
@@ -36,6 +38,8 @@ export default function Unique() {
                       className='bg-green rounded-full p-2 mb-11'
                       width={70}
                       height={70}
+                      loading='lazy'
+
                     />
                     
                     <p className='pt-5'>24/7 services</p>
@@ -47,6 +51,7 @@ export default function Unique() {
                       className='bg-green rounded-full p-2 mb-11'
                       width={70}
                       height={70}
+                      loading='lazy'
                     />
                     
                     <p className='pt-5'>Fresh made food</p>
@@ -58,6 +63,7 @@ export default function Unique() {
                         className='bg-green rounded-full p-2 mb-11'
                         width={70}
                         height={70}
+                        loading='lazy'
                       />
                     
                     <p className='pt-5'>Quality maintain</p>

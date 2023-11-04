@@ -90,6 +90,7 @@ function Card() {
                             height={233}
                             width={370}
                             alt='card'
+                            loading='lazy'
                             />
                             <p className="text-cardText text-xs mt-5 mb-4">{card.img}</p>
                             <h1 className='text-cardHead text-2xl font-bold mb-3'>{card.link}</h1>

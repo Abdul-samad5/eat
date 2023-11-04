@@ -40,7 +40,9 @@ export default function Counter() {
                 src='/Vector (2).png'
                 alt='vector'
                 width={190}
-                height={290} />
+                height={290} 
+                loading='lazy'
+                />
       </div>
     </div>
   

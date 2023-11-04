@@ -5,10 +5,11 @@ function Vector() {
   return (
     <div>
         <Image 
-    alt='gggg'
-    src='/footer.svg'
-    width={1400}
-    height={400}/>
+          alt='gggg'
+          src='/footer.svg'
+          width={1400}
+          height={400}
+          loading='eager'/>
     </div>
   )
 }

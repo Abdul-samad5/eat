@@ -12,6 +12,7 @@ function Footer() {
             src='/Logo.png'
             alt='logo'
             width={213}
+            loading='lazy'
             height={60}
           />
        <ul className='text-white flex'>

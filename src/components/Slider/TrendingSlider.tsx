@@ -88,6 +88,7 @@ const TrendingSlider = () => {
           width={550}
           height={530}
           alt="one"
+          loading='eager'
           />
         </div>
         <div className="flex">
@@ -96,20 +97,23 @@ const TrendingSlider = () => {
           src='/Rectangle 4175.png'
           width={170}
           height={530}
-          alt="one"
+          alt="two"
+          loading='eager'
           />
            <Image 
            className="pr-5"
             src='/Rectangle 4173.png'
             width={170}
             height={530}
-            alt="one"
+            loading='eager'
+            alt="three"
           />
            <Image 
             src='/Rectangle 4174.png'
             width={170}
             height={530}
-            alt="one"
+            loading='eager'
+            alt="four"
           />
         </div>
       </div>
@@ -119,6 +123,7 @@ const TrendingSlider = () => {
             src='/shot.png'
             alt="screen"
             width={400}
+            loading='eager'
             height={616}
             />
         </div>
@@ -131,11 +136,13 @@ const TrendingSlider = () => {
               src='/google.png'
               alt="google"
               width={170}
+              loading='eager'
               height={50}
               />
                <Image
               src='/applestore.png'
-              alt="google"
+              alt="apple"
+              loading='eager'
               width={170}
               height={50}
               />

@@ -17,6 +17,7 @@ export default function Ready() {
                             className='bg-green rounded-full p-2 ml-36 mb-11'
                             width={70}
                             height={70}
+                            loading='lazy'
                             />
                             <h1 className='text-green uppercase text-3xl font-bold pl-20'>Discover</h1>
                             <p className='pl-16 w-72 pt-4'>Browse through a variety of delicious chef-created food deals. From local favorites to exotic cuisines, there&apos;s something for everyone.</p>
@@ -28,6 +29,7 @@ export default function Ready() {
                             className='bg-green rounded-full p-2 ml-28 mb-11'
                             width={70}
                             height={70}
+                            loading='lazy'
                             />
                             <h1 className='text-green uppercase text-3xl font-bold pl-18'>Join deal</h1>
                             <p className='pt-4 w-72 pl-10 pl-5'>Top up your wallet and join food deals you love. You can also buy immediately if you can&apos;t wait. Your money will not be deducted until the deal is successful.</p>
@@ -38,6 +40,7 @@ export default function Ready() {
                             alt='truck'
                             className='bg-green rounded-full p-2 mb-11 ml-28'
                             width={70}
+                            loading='lazy'
                             height={70}
                             />
                             <h1 className='text-green uppercase text-3xl font-bold pl-18'>Deliver</h1>
