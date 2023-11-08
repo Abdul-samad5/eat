@@ -116,7 +116,16 @@ font-weight: 600;
   margin-left: 10rem;
   margin-top: -21rem;
 }
-
+form{
+box-shadow: 5px 10px 30px 5px rgba(182, 182, 182, 0.25);
+}
+label{
+  color: #3E3E3E;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
 .btn{
  margin-right: -16rem;
 }
@@ -136,12 +145,20 @@ font-weight: 600;
   border: 1px solid white;
 }
 .afford{
-  background-image: url('../../public/Vector.png');
+  /* background-image: url('../../public/Vector.png'); */
+  background-image: url('../../public/patter4.svg');
   background-repeat: no-repeat;
   background-size: 900px;
   background-position: 35% ;
   height: 710px;
   
+}
+.download{
+  background-image: url('../../public/patter4.svg');
+  background-repeat: no-repeat;
+  background-size: 800px;
+  /* background-position: 35% ; */
+  height: 450px;
 }
 .hamburger {
   cursor: pointer;
@@ -189,8 +206,9 @@ font-weight: 600;
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
-/* @media (min-width: 480px) {
+/* @media (max-width: 480px) {
   
+  }
 }
 
 @media (min-width: 768px) {

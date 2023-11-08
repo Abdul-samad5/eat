@@ -8,6 +8,7 @@ import Counter from './Counter'
 import Header from '../HeaderAndFooter/Header'
 import Footer from '../HeaderAndFooter/Footer'
 import TrendingSlider from '@/components/Slider/TrendingSlider'
+import Download from '@/components/Download'
 
 function index() {
   return (
@@ -20,6 +21,7 @@ function index() {
         <Testimony/>
         <Counter/>
         <TrendingSlider/>
+        <Download/>
         <Footer/>
     </div>
   )

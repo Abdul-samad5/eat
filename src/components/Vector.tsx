@@ -9,7 +9,9 @@ function Vector() {
           src='/footer.svg'
           width={1400}
           height={400}
+          priority
           loading='eager'/>
+          
     </div>
   )
 }

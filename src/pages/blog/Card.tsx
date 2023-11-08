@@ -80,7 +80,7 @@ function Card() {
     ]
   return (
     <>
-     <div className='grid grid-cols-3 grid-rows-3 gap-x-1 gap-y-10'>
+    <div className='grid grid-cols-3 grid-rows-3 gap-x-1 gap-y-10'>
         {
             cards.map((card)=>(
                  <Link href="/" key={card.id} >

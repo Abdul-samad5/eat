@@ -8,17 +8,17 @@ export default function Hero() {
                  <TypeAnimation
         sequence={[
           "Blogs from Food experts",
-          5000,
+          1000,
           "Blogs from Food creators",
-          5000,
+          1000,
           "Blogs from Food scientists",
-          5000,
-          " Blogs from Food nutritionist",
-          5000,
-          " Blogs from Food lovers",
-          5000
+          1000,
+          "Blogs from Food nutritionist",
+          1000,
+          "Blogs from Food lovers",
+          1000
         ]}
-        speed={60}
+        speed={50}
         repeat={Infinity}
       />
             </h1>

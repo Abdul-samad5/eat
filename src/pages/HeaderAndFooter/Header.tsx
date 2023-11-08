@@ -32,13 +32,13 @@ const Header = () => {
           <Link href="/about">About us</Link>
           </li>
            <li className='pr-14'>
-          <Link href="/">Service</Link>
+          <Link href="/service">Service</Link>
           </li>
           <li className='pr-14'>
           <Link href="/blog">Blog</Link>
           </li>
           <li className='pr-2'>
-          <Link href="/">Contact</Link>
+          <Link href="/contact">Contact</Link>
           </li>
         </ul>
         <div className='-mt-3 hidden md:flex'>

@@ -38,8 +38,8 @@ const config = {
           },        
       },
       extend: {
-         fontFamily: {
-            poppins: ['Averta', 'NexaRegular'],
+         backgroundImage: {
+            'my_bg_image' : "url('../public/Vector.png'))",
          },
          animation: {
             'accordion-down': 'accordion-down 0.2s ease-out',
@@ -57,6 +57,8 @@ const config = {
             cardHead:'#272727',
             cardPara:'#5F5F5F',
             borderColor:'#DADADA',
+            labelColor:'#3E3E3E',
+            formborder:'#C9C9C9',
             accent: {
                DEFAULT: 'hsl(var(--accent))',
                foreground: 'hsl(var(--accent-foreground))',
