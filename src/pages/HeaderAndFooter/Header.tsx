@@ -76,11 +76,11 @@ const Header = () => {
       
     
     <div className="md:hidden">
-        <div id="menu" className="absolute flex-col items-center self-end hidden  py-8 mt-10 space-y-6 font-bold bg-green sm:auto sm:self-center left-6 right-6 drop-shadow-md">
-            <Link href="#" className="hover:text-darkGrayishBlue">About Us</Link>
-            <Link href="#" className="hover:text-darkGrayishBlue">Services</Link>
-            <Link href="#" className="hover:text-darkGrayishBlue">Blog</Link>
-            <Link href="#" className="hover:text-darkGrayishBlue">Contact</Link>
+        <div id="menu" className="absolute flex-col items-center self-end hidden  py-5 mt-5 space-y-6 font-bold bg-black text-white sm:auto sm:self-center left-6 right-6 drop-shadow-md">
+            <Link href="/about" className="hover:text-darkGrayishBlue">About Us</Link>
+            <Link href="/service" className="hover:text-darkGrayishBlue">Services</Link>
+            <Link href="/blog" className="hover:text-darkGrayishBlue">Blog</Link>
+            <Link href="/contact" className="hover:text-darkGrayishBlue">Contact</Link>
            
         </div>
     </div>

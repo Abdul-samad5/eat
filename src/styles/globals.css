@@ -205,10 +205,10 @@ line-height: normal;
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
-
-/* @media (max-width: 480px) {
+/* 
+@media (max-width: 480px) {
   
-  }
+  
 }
 
 @media (min-width: 768px) {

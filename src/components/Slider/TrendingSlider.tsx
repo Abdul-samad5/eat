@@ -62,7 +62,7 @@ const TrendingSlider = () => {
        
         <div className="container">
           <div className="title-btns mb-24">
-            <h3>This month chef&apos;s</h3>
+            <h3 className="text-5xl font-extrabold">Chef of the month</h3>
             <p className="w-80">Lorem ipsum dolor sit amet consectetur. Enim morbi arcu hendrerit feugiat.
                Id dui bibendum massa auctor.</p>
             <div className="btns">

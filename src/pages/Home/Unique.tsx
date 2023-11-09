@@ -15,9 +15,9 @@ export default function Unique() {
             />
         </div> 
         <div className="text-white mt-40">
-          <h1 className="text-5xl mb-8">why we are unique?</h1>
-          <p className="width mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.</p>
-          <p className="width mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius sed pharetra dictum neque massa congue</p>
+          <h1 className="text-5xl mb-8">Why we are unique?</h1>
+          <p className="width mb-8">Pusheat isn&apos;t just a platform; it&apos;s a movement. Like TikTok for food creatives, chefs, and anyone ready to showcase and sell their culinary masterpieces, we&apos;re setting a new standard in the culinary world.</p>
+          <p className="width mb-8">Pusheat is the pioneering food creator platform in Africa. This groundbreaking concept opens up a world of opportunities for both food lovers and culinary creators on the continent.</p>
               <div className="grid grid-cols-2 gap-1 mr-14">
                   <div className="flex">
                     <Image 
@@ -29,7 +29,7 @@ export default function Unique() {
                       height={70}
                     />
                  
-                    <p className='pt-5'>Fast Delivery</p>
+                    <p className='pt-5'>Savings and convenience</p>
                   </div>
                   <div className="flex">
                   <Image 
@@ -42,7 +42,7 @@ export default function Unique() {
 
                     />
                     
-                    <p className='pt-5'>24/7 services</p>
+                    <p className='pt-5'>Variety and exploration</p>
                   </div>
                   <div className="flex">
                   <Image 
@@ -54,7 +54,7 @@ export default function Unique() {
                       loading='lazy'
                     />
                     
-                    <p className='pt-5'>Fresh made food</p>
+                    <p className='pt-5'>All meals are freshly made</p>
                   </div>
                   <div className="flex">
                     <Image 
@@ -66,7 +66,7 @@ export default function Unique() {
                         loading='lazy'
                       />
                     
-                    <p className='pt-5'>Quality maintain</p>
+                    <p className='pt-5'>Interactive food deals</p>
                   </div>
               </div>
         </div> 
